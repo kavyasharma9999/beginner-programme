@@ -50,7 +50,7 @@ public class Main {
             System.out.println("cannot process this transaction amount in negative ! ");
             return 0;
         } else if (amount > 100000000) {
-            System.out.println("amount to big to process !! ");
+            System.out.println("amount too big to process !! ");
             return 0;
         } else {
             return amount;
@@ -78,6 +78,7 @@ public class Main {
 
 
         
+
 
 
 
